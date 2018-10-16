@@ -1,0 +1,23 @@
+{
+    "name": "event-manager",
+    "version": "1.0.0",
+    "description": "事件管理",
+    "author": "Aguangtian",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/通用/事件管理": {
+            "message": "event-manager:run"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "事件管理",
+        "width": 600,
+        "height": 800
+    }
+}
